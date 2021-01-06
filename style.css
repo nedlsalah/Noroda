@@ -1,14 +1,43 @@
 * {
-  font-family: sans-serif;
+font-family: 'Red Hat Text', sans-serif;
   margin: 0;
   padding: 0;
+  font-size: 16px;
+
 }
 
+label{
+  color: #212f56;
+}
 
+p{
+ font-style: normal;
+ line-height: 30px;
+ text-align: left;
+}
+p ul , li{
+  text-align: left;
+}
 #nav-bar {
   position: sticky;
   top: 0;
   z-index: 10;
+}
+.nav1{
+
+  color: white;
+  text-decoration: none;
+  margin: 5px;
+  padding: 5px;
+  background-color: #b11226;
+  text-transform: uppercase;
+  font-weight: bold;
+    transition: all 0.2s ease-in-out;
+}
+.nav1:hover{
+color: rgba(255, 255, 255, 1);
+box-shadow: 0 5px 15px rgba(255, 26, 30, .4);
+  text-decoration: none;
 }
 
 .navbar {
@@ -85,8 +114,20 @@
   margin: 10px auto;
 
 }
+.services a:hover{
+   box-shadow: 0 5px 5px rgb(0, 0, 0, 0.3);
+}
 
 
+
+.servBg {
+  background-color: #ffd186;
+   border-radius: 20px;
+   padding: 10px;
+   margin: 10px;
+   box-shadow: 0 5px 5px rgb(0,0,0,0.15);
+
+}
 .services-img {
   width: 150px;
   margin-top: 20px;
@@ -112,7 +153,6 @@
 }
 
 #choose-us {
-  background: #f8f9fa;
   padding-bottom: 10px;
   padding-top: 50px;
   margin-bottom: 50px;
@@ -134,8 +174,9 @@
   font-size: 15px;
 }
 
-.choose {
-  width: 50%;
+.aboutsvg {
+  padding-top: 40px;
+  width: 80%;
 }
 
 .testimonials {
@@ -167,13 +208,12 @@
 
 
 #footer {
+  padding-top: 20px;
+  margin-top: 40px;
   color: white;
 }
 
-#footer ul,
-p {
-  font-size: 15px;
-}
+
 
 .footer-img {
   width: 100%;
@@ -229,6 +269,18 @@ p {
 hr {
   background-color: #ffd186;
 }
+
+
+
+
+.contactimg{
+ width: 100%;height: 100%;
+
+}
+
+
+
+
 
 .copyright {
   margin-bottom: 0;

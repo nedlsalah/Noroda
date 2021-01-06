@@ -5,6 +5,10 @@
    <meta charset="UTF-8" />
    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
    <title>Noroda Media</title>
+   <link rel="preconnect" href="https://fonts.gstatic.com">
+   <link
+     href="https://fonts.googleapis.com/css2?family=Red+Hat+Text:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap"
+     rel="stylesheet">
    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
 
@@ -25,6 +29,10 @@
    <section id="nav-bar">
      <nav class="navbar navbar-expand-lg navbar-light">
        <a class="navbar-brand" href="#home"><img src="img/logo.png"></a>
+       <a class="nav1" href=" tel:+2126 68 78 87 40"><i class="fas fa-phone-square-alt"></i> Telephone</a>
+       <a class="nav1" href="mailto:contact@norodamedia.com" target="_blank"><i
+           class="fas fa-envelope-square"></i> Mail</a>
+
        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
          aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
 
@@ -35,9 +43,10 @@
        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
          <ul class="navbar-nav ml-auto">
            <a class="nav-link" href="#home">Accueil</a>
-           <a class="nav-link" href="#services">Services</a>
-           <a class="nav-link" href="#choose-us">Pourquoi Nous</a>
+           <a class="nav-link" href="#choose-us">A propos</a>
+           <a class="nav-link" href="#services">Nos services</a>
            <a class="nav-link" href="#testimonials">Témoignages </a>
+           <a class="nav-link" href="#reference">Référence </a>
            <a class="nav-link" href="#footer">Contact</a>
          </ul>
        </div>
@@ -46,27 +55,46 @@
 
    <!-- Banner section -->
    <section id="banner">
-     <div class="container">
-       <div class="row">
+     <div class="container" style="text-align: center;">
 
-         <div class="col-md-6" data-aos="fade-right" data-aos-duration="1000">
-           <p class="promo-title"> NORODA MEDIA</p>
-           <p>est une société qui offre deux principaux services. L’informatisation des systèmes de gestion
-             des entreprises en leur proposant des progiciels qui correspondent à leur besoin et l’accompagnement à la
-             transformation digitale.</p>
-         </div>
-
-         <div class="col-md-6 text-center" data-aos="fade-left" data-aos-duration="1000">
-           <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
-           <lottie-player src="https://assets10.lottiefiles.com/packages/lf20_qwATcU.json" background="transparent"
-             speed="1" style="width: 300px; height: 300px;" loop autoplay></lottie-player>
-         </div>
-       </div>
+       <img src="img/slogan.png" alt="logo" style="width: 400px; height: 400px;">
+     </div>
      </div>
      </div>
 
      <img src="./img/wave0.svg" class="bottom-img">
    </section>
+
+
+   <!-- Choose us -->
+   <section id="choose-us">
+     <div class="container">
+       <h1 class="title text-center" data-aos="fade-left"> A propos
+       </h1>
+       <div class="row">
+         <div class="col-md-6" data-aos="fade-left">
+           <p><h6>NORODA MEDIA</h6> est une agence digitale 360, créative et innovante qui offre un
+             accompagnement dans la transformation digitale et technologique ainsi que
+             l’implémentation des solutions informatiques innovatrices dans la perspective de
+             stimuler la performance et la croissance de ces clients.</p>
+           <h6> Notre Vision :
+           </h6>
+           <p>
+             Vous accompagnez à développer votre business et votre activité
+             Améliorer l'efficacité opérationnelle de votre entreprise
+             Cibler et acquérir une nouvelle clientèle.
+             Augmenter la notoriété de votre entreprise.
+           </p>
+         </div>
+
+         <div class="col-md-6" data-aos="fade-right">
+           <img src="./img/about.svg" class="aboutsvg">
+         </div>
+       </div>
+     </div>
+   </section>
+
+
 
    <!-- services section -->
    <section id="services">
@@ -75,41 +103,121 @@
        <div class="row text-center">
 
          <div class="col-md-4 services" data-aos="fade-left">
-           <img src="./img/1.png" class="services-img">
-           <h6>Développement Application Web et Mobile</h6>
+           <div class="servBg">
+             <img src="./img/1.png" class="services-img">
+             <h6>Création des sites vitrines ou E-commerce</h6>
+             <p>Être présent et communiquer sur internet est devenu incontournable pour les entreprises.
+               Le premier réflexe des utilisateurs est de rechercher sur Internet. Votre site vous
+               permettra de véhiculer et valoriser l’image de votre entreprise, de trouver des prospects
+               qualifiés, vendre vos produits et services. <br>
+               NORODA MEDIA propose un large choix de sites internet :
+               Site Web standard : un site internet simple, efficace et fonctionnel avec un coût et délais
+               moindres. <br>
+               Site Web personnalisé : Personnalisation du thème graphique, soit créé à la base d’un
+               template prédéfini, nous personnalisons chaque page selon les fonctionnalités et
+               l’affichage qui lui sont accordés. <br>
+               E-Commerce : Création d’une boutique en ligne en différenciant grâce à une ergonomie
+               bien pensée, une navigation facilitant la vente et des fonctionnalités adéquatement
+               disposées pour inciter les visiteurs à l’achat.</p>
+           </div>
 
          </div>
 
          <div class="col-md-4 services" data-aos="fade-left">
-           <img src="./img/2.png" class="services-img">
-           <h6>Accompagnement et stratégie transformation digitale</h6>
-
+           <div class="servBg">
+             <img src="./img/2.png" class="services-img">
+             <h6>Accompagnement et stratégie Transformation digitale</h6>
+             <p>
+               La transformation digitale peut être perçue comme un défi, mais elle est aussi
+               inéluctable et s’impose aux entrepreneurs. C’est un processus qui ne s’improvise pas. Pour être sûr de prendre le bon bout, le meilleur réflexe à avoir est celui de se faire
+               accompagner, de préférence par une agence. <br>
+               Le rôle de NORODA MEDIA est d’aider les entreprises à concrétiser ses idées, à
+               améliorer celles existantes et se débarrasser de ce dont les entreprises n’ont pas besoin,
+               par exemple conception ou refonte de site web, mais aussi en référencement, de
+               trouver des stratégies qui marchent.
+            </p>
+           </div>
          </div>
 
          <div class="col-md-4 services" data-aos="fade-left">
-           <img src="./img/3.png" class="services-img">
-           <h6>Support IT</h6>
-
+           <div class="servBg">
+             <img src="./img/3.png" class="services-img">
+             <h6>Support IT</h6>
+             <p>NORODA MEDIA propose à ses clients un service en support informatique en assurant la
+               maintenance du matériel informatique, c'est-à-dire des ordinateurs et des
+               périphériques, comme les imprimantes, installer les nouveaux
+                 équipements et les
+               logiciels, Ordinateur portable qui refuse de s'allumer, impossibilité de se connecter au
+               réseau ou à Internet, difficulté à faire fonctionner une imprimante... <br>
+               Nos techniciens de maintenance en support informatique est là pour aider les
+               utilisateurs. Il détecte l'origine du problème en se rendant directement sur le poste de
+               travail concerné. <br>
+               Puis, il remédie à l'anomalie par une modification des paramètres de la machine ou le
+               remplacement d'une pièce défectueuse.   </p>
+           </div>
          </div>
          <div class="col-md-4 services" data-aos="fade-right">
-           <img src="./img/4.png" class="services-img">
-           <h6>Référencement WEB</h6>
+           <div class="servBg">
+             <img src="./img/4.png" class="services-img">
+             <h6>Référencement WEB</h6>
+             <p> Le référencement naturel, ou l’optimisation du référencement naturel a pour but
+               d’améliorer le classement dans les résultats de recherche tel que Google (mais aussi
+               Yahoo, Bing, etc.) afin d’augmenter le trafic de visiteurs sur votre site web. <br>
+               Grâce à l’optimisation du référencement, les entreprises génèrent plus de trafic qualifié.
+               C’est-à-dire elles ne démarchent pas ses prospects de manière impromptue car ce sont
+               eux qui viennent directement à elles. <br>
+               NORODA MEDIA vous propose des services de référencement et d’optimisations pour
+               les moteurs de recherche qui ont été élaboré pour augmenter la visibilité dans les
+               résultats de recherche afin de pouvoir avoir un trafic important et ciblé vers votre site
+               web. <br>
+               Notre méthodologie de référencement: <br>
+               &sdot; Audit de site interne <br>
+               &sdot; Audit de visibilité par rapport à la concurrence <br>
+               &sdot; Recherche de mots clés <br>
+               &sdot; Optimisation de site web (technique et contenu) <br>
+               &sdot; Soumission dans les outils de recherche <br>
+               &sdot; Vérification de l’inscription <br>
+               &sdot; Suivi de positionnement dans les outils
+            </p> </div>
+         </div>
 
+
+
+         <div class="col-md-4 services" data-aos="fade-right">
+           <div class="servBg">
+             <img src="./img/5.png" class="services-img">
+             <h6>Publicité en ligne</h6>
+             <p>Avec les évolutions actuelles, on peut aujourd’hui définir la publicité en ligne comme
+               étant toute action visant à promouvoir un produit, un service, une marque ou une
+               organisation auprès d’un groupe d’internautes et/ou de
+                 mobinautes contre
+               rémunération. <br>
+               Notre agence Noroda Media vous propose des services de création et de gestion des
+               3
+               compagnes publicitaires sur les réseaux sociaux et ADWORDS. </p>
+           </div>
          </div>
          <div class="col-md-4 services" data-aos="fade-right">
-           <img src="./img/5.png" class="services-img">
-           <h6>Publicité en ligne</h6>
-
-         </div>
-         <div class="col-md-4 services" data-aos="fade-right">
-           <img src="./img/6.png" class="services-img">
-           <h6>Community Management</h6>
-
-         </div>
-
-         <div class="col-md-12 services" data-aos="fade-up">
-           <img src="./img/7.png" class="services-img">
-           <h6>Création Site Web</h6>
+           <div class="servBg">
+             <img src="./img/6.png" class="services-img">
+             <h6>Community Management</h6>
+             <p>Le community management consiste à élaborer et mettre en place une stratégie éditoriale
+               et d’acquisition sur les réseaux sociaux. Visant à recruter, fidéliser, c’est un enjeu majeur
+               pour toute entreprise souhaitant développer sa présence digitale
+                  <br>
+               Chez NORODA MEDIA, nous définissons la stratégie des entreprises et développons leur
+               identité de marque sur les réseaux sociaux. La stratégie que nous élaborons pour nos clients
+               raconte leur propre histoire en utilisant leurs leviers de développement pour vous fournir
+               un plan de communication média en adéquation avec votre identité. <br>
+               Nous vous proposons une gestion sur mesure appropriée aux réseaux sociaux suivants: <br>
+               &sdot; Facebook  <br>
+               &sdot; Google+ <br>
+               &sdot; Twitter <br>
+               &sdot; Pinterest <br>
+               &sdot; Instagram <br>
+               &sdot; Youtube <br>
+               </p>
+           </div>
 
          </div>
        </div>
@@ -117,34 +225,6 @@
      </div>
    </section>
 
-   <!-- Choose us -->
-   <section id="choose-us">
-     <div class="container">
-       <h1 class="title text-center" data-aos="fade-left"> Pourquoi Choisir Noroda Media ?
-       </h1>
-       <div class="row">
-         <div class="col-md-6" data-aos="fade-left">
-           <ul>
-             <li> Une équipe expérimentée aux compétences IT & Marketing complémentaires, ayant une vision globale de
-               l’entreprise et rompu à trouver des moyens de créer de la valeur avec le numérique.</li>
-             <li> Un savoir-faire transverse en transformation digitale et en communication et marketing digital, au
-               niveau national et international.</li>
-             <li>Une méthodologie éprouvée incluant un diagnostic précis, l’utilisation d’outils analytiques performants
-               et de modèles stratégiques innovants.</li>
-             <li> Une action tant sur un aspect stratégique qu’opérationnel en constituant une équipe dédiée en fonction
-               de vos besoins.</li>
-             <li> La capacité à traduire vos objectifs business en une stratégie digitale pertinente, équilibrée et
-               dynamique.</li>
-             <li> Des professionnels à vos côtés, force de proposition, disponibles et pro-actifs.</li>
-           </ul>
-         </div>
-
-         <div class="col-md-6" data-aos="fade-right">
-           <img src="./img/choose.svg" class="choose">
-         </div>
-       </div>
-     </div>
-   </section>
 
    <!-- testimonials section -->
    <section id="testimonials">
@@ -196,8 +276,103 @@
 
 
 
+   <!-- reference section -->
+   <section id="reference">
+     <div class="container">
+       <h1 class="title text-center" data-aos="fade-up">Référence
+       </h1>
+       <div class="row offset-1">
+
+         <div class="col-md-2 references" data-aos="fade-up">
+           <img src="img/polis.png" alt="polis" style="width: 150px; height: 150px; border-radius: 20px;">
+
+         </div>
+
+
+         <div class="col-md-4 references" data-aos="fade-up">
+           <h4>Polis-sos</h4>
+           <p>Fourni un service hospitalier, médical et paramédical situé à TANGER 24h/24 7j/7
+             Secteur: Médical
+             Missions réalisées: Création de site Web et – Publicité en ligne
+             enrichissement...
+             .</p>
+
+         </div>
+       </div>
+     </div>
+
+   </section>
    <!-- footer section -->
    <section id="footer">
+
+
+     <!--form contact-->
+     <h1 class="title text-center" data-aos="fade-up">Contact  </h1>
+
+     <div class="container" >
+
+
+      <div class="row">
+        <div class="col-md-7" data-aos="fade-left">
+
+          <form class="formcontact">
+            <div class="form-group row">
+
+              <label class="col-sm-5 col-form-label">Société/ Nom et Prenom</label>
+              <div class="col-sm-7">
+                <input type="text" class="form-control" placeholder="Société/ Nom et Prenom" name="userName"
+                  id="userName" required>
+              </div>
+            </div>
+
+            <div class="form-group row">
+              <label class="col-sm-5 col-form-label">Mail</label>
+              <div class="col-sm-7">
+                <input type="email" class="form-control" id="mail" placeholder="mail" required>
+              </div>
+            </div>
+
+            <div class="form-group row">
+              <label class="col-sm-5 col-form-label">Tel</label>
+              <div class="col-sm-7">
+                <input type="tel" class="form-control" id="tel" placeholder="Tel" required>
+              </div>
+            </div>
+
+            <div class="form-group row">
+              <label class="col-sm-5 col-form-label">Sujet</label>
+              <div class="col-sm-7">
+                <input type="text" class="form-control" id="sujet" placeholder="Sujet" required>
+              </div>
+            </div>
+
+            <div class="form-group row">
+              <label class="col-sm-5 col-form-label">Message</label>
+              <div class="col-sm-7">
+                <textarea class="form-control" rows="5" id="message" required> </textarea>
+              </div>
+            </div>
+
+            <div class="form-group row">
+              <input type="submit" name="send" class="btn btn-primary" value="Envoyer" />
+            </div>
+          </form>
+
+        </div>
+
+        <div class="col-md-5" data-aos="fade-right">
+          <img class="contactimg" src="img/contact.svg">
+
+
+        </div>
+      </div>
+
+
+   </div>
+
+
+     <!--end of form contact-->
+
      <img src="img/wave.svg" class="footer-img">
      <div class="container-footer ">
        <div class="row">
@@ -233,8 +408,18 @@
                  class="fab fa-instagram-square fa-3x"></i></a>
              <a href="https://www.linkedin.com/in/noroda-media-agency-7062791b5/" target="_blank"><i
                  class="fab fa-linkedin-square fa-3x"></i></a>
+<br>
+
+
+
+
 
            </div>
+           <br>
+ <iframe
+                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3323.7816619560886!2d-7.634186350134752!3d33.5850177806411!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xda7d2953f1e7b6d%3A0xe6e0dd28adf291db!2sETG%205%20N%C2%B010%2C%2013%20Rue%20Al%20Kassar%2C%20Casablanca%2020330!5e0!3m2!1sen!2sma!4v1609928217539!5m2!1sen!2sma"
+                 width="350" height="250" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"
+                 tabindex="0"></iframe>
 
 
          </div>
@@ -249,12 +434,12 @@
    </section>
 
 
-     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
 
-     <script>
-       AOS.init();
-     </script>
+   <script>
+     AOS.init();
+   </script>
 
 
 
@@ -281,12 +466,6 @@
    <script type="text/javascript">
      var s = skrollr.init();
    </script>
-
-
-
-
-
-
 
  </body>
 
