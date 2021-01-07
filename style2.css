@@ -6,7 +6,8 @@ box-sizing: border-box;
 
 }
 body{
-  align-items: center;
+  background-color: #212f56;
+  text-align: left;
 }
 header{
 display: flex;
@@ -21,11 +22,15 @@ section{
 
 label{
   color: #212f56;
+    text-align: left;
+
 }
 p{
  font-style: normal;
  line-height: 30px;
- text-align: left;
+   text-align: left;
+
+
 }
 #nav-bar {
   position: sticky;
@@ -82,38 +87,29 @@ box-shadow: 0 5px 15px ;
 .navbar-toggler {
   outline: none !important;
 }
-.bottom-img {
-  width: 100%;
-}
-#banner {
+.btnretour {
+  color:#ffd186;
   background-color: #212f56;
-  color: white;
-}
-#banner a {
-  color: white;
+  float: left;
+  border-radius: 20px;
   text-decoration: none;
+  padding: 10px;
 }
-.title1{
-  padding-top: 20px;
- color: #ffd186;
- text-align: center;
- overflow: hidden;
- text-transform: uppercase;
+.btnretour:hover {
+  color: #212f56;
+  background-color: #ffd186;
+  float: left;
+  border-radius: 20px;
+  text-decoration: none;
+  padding: 7px;
+  border: #212f56 solid 3px;
 }
 .title {
-  color: #212f56;
-  padding: 10px;
+  color: #ffd186;
+  padding: 20px;
   text-align: center;
   overflow: hidden;
   text-transform: uppercase;
-}
-#services{
-  background-color: #212f56;
-  padding-bottom: 50px;
-}
-#services a{
-  color: #212f56;
-  font-weight:500;
 }
 .servBg {
   background-color: #ffd186;
@@ -129,72 +125,23 @@ box-shadow: 0 5px 15px ;
   border: #212f56 20px;
   border-radius: 5%;
   padding: 10px;
+  text-align: center;
 }
 
-.services h5{
+.services h5 {
   padding: 10px;
   margin-top: 2px;
   text-transform: uppercase;
  }
-#choose-us {
-  padding-bottom: 10px;
-  padding-top: 50px;
-  margin-bottom: 50px;
-}
-.choose-title {
-  font-size: 40px;
-  font-weight: 600;
-  margin-top: 8%;
-}
-#choose-us ul {
-  margin-left: 20px;
-}
 
-#choose-us ul li {
-  margin: 10px 0;
-  font-size: 15px;
-}
 
-#reference{
-    background-color: #212f56;
-    color: white;
-  }
-  #reference h1{
-    color: #ffd186;
-  }
-   #reference img{
-     width: 150px;
-     height: 150px;
-     border-radius: 20px;
-     border: #ffd186 3px solid;
 
-     box-shadow: #ffd186;
-   }
-.aboutsvg {
-  padding-top: 40px;
-  width: 80%;
-}
-
-.testimonials {
-  margin: 550px 0;
-  border-left: 4px solid #212f56;
-  margin-top: 10px;
-  margin-bottom: 10px;
-}
-
-.testimonials p {
-  font-size: 15px;
-}
-
-.user-details {
-  display: inline-block;
-  font-size: 8px;
-}
 
 .social-icons .fab {
   color: #ffd186;
   transition: 0.5s;
   padding-left: 10px;
+
 }
 
 .social-icons a:hover .fab {
@@ -205,6 +152,7 @@ box-shadow: 0 5px 15px ;
 
 #footer {
   color: white;
+    text-align: left;
 }
 
 .container-footer {
@@ -255,24 +203,39 @@ text-decoration: underline #ffd186;
   margin-top: 30px;
   background-color: #212f56;
 }
-.btn-primary{
+.btnprimary{
   background-color: #212f56;
   color:#ffd186;
+  text-decoration: none;
+  border: #ffd186 3px solid;
 }
-.btn-primary:hover {
+.btnprimary:hover {
   background-color: #ffd186;
   color: #212f56;
+  text-decoration: none;
+    border: #212f56 3px solid;
+
 }
 .contactimg{
  width: 50%;
  height: 50%;
+ border: #ffd186 3px solid;
+}
+.formcontact label{
+  color: #ffd186;
 }
 .t1 {
-  color: #212f56;
+  color: #ffd186;
 }
 #copyright {
   margin-bottom: 0;
   padding-bottom: 20px;
   text-align: center;
   font-size: small;
+}
+
+
+
+.container-footer{
+  padding-top: 100px;
 }
